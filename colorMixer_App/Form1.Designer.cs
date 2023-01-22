@@ -43,7 +43,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pnlSelectedScreen2 = new System.Windows.Forms.Panel();
             this.tBxBlue1 = new System.Windows.Forms.MaskedTextBox();
             this.tBxGreen1 = new System.Windows.Forms.MaskedTextBox();
             this.tBxRed1 = new System.Windows.Forms.MaskedTextBox();
@@ -109,12 +109,13 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(500, 102);
+            this.pictureBox2.Location = new System.Drawing.Point(511, 102);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(300, 160);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.Size = new System.Drawing.Size(254, 159);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.MouseMove += new System.Windows.Forms.MouseEventHandler(this.pictureBox2_MouseMove);
             // 
             // groupBox1
             // 
@@ -196,7 +197,7 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.panel2);
+            this.groupBox2.Controls.Add(this.pnlSelectedScreen2);
             this.groupBox2.Controls.Add(this.tBxBlue1);
             this.groupBox2.Controls.Add(this.tBxGreen1);
             this.groupBox2.Controls.Add(this.tBxRed1);
@@ -211,12 +212,12 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Selected second Color";
             // 
-            // panel2
+            // pnlSelectedScreen2
             // 
-            this.panel2.Location = new System.Drawing.Point(188, 27);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(106, 106);
-            this.panel2.TabIndex = 10;
+            this.pnlSelectedScreen2.Location = new System.Drawing.Point(188, 27);
+            this.pnlSelectedScreen2.Name = "pnlSelectedScreen2";
+            this.pnlSelectedScreen2.Size = new System.Drawing.Size(106, 106);
+            this.pnlSelectedScreen2.TabIndex = 10;
             // 
             // tBxBlue1
             // 
@@ -355,5 +356,6 @@
         private GroupBox groupBox3;
         private Panel panel3;
         private Button button1;
+        private Panel pnlSelectedScreen2;
     }
 }

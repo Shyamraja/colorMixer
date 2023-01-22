@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jammin\\OneDrive\\Desktop\\colorMixer_App\\colorMixer_App\\colorMixer_App.csproj": {}
+    "C:\\Users\\Jammin\\OneDrive\\Desktop\\colorMixer_App\\colorMixer\\colorMixer_App\\colorMixer_App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jammin\\OneDrive\\Desktop\\colorMixer_App\\colorMixer_App\\colorMixer_App.csproj": {
+    "C:\\Users\\Jammin\\OneDrive\\Desktop\\colorMixer_App\\colorMixer\\colorMixer_App\\colorMixer_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jammin\\OneDrive\\Desktop\\colorMixer_App\\colorMixer_App\\colorMixer_App.csproj",
+        "projectUniqueName": "C:\\Users\\Jammin\\OneDrive\\Desktop\\colorMixer_App\\colorMixer\\colorMixer_App\\colorMixer_App.csproj",
         "projectName": "colorMixer_App",
-        "projectPath": "C:\\Users\\Jammin\\OneDrive\\Desktop\\colorMixer_App\\colorMixer_App\\colorMixer_App.csproj",
+        "projectPath": "C:\\Users\\Jammin\\OneDrive\\Desktop\\colorMixer_App\\colorMixer\\colorMixer_App\\colorMixer_App.csproj",
         "packagesPath": "C:\\Users\\Jammin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jammin\\OneDrive\\Desktop\\colorMixer_App\\colorMixer_App\\obj\\",
+        "outputPath": "C:\\Users\\Jammin\\OneDrive\\Desktop\\colorMixer_App\\colorMixer\\colorMixer_App\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jammin\\AppData\\Roaming\\NuGet\\NuGet.Config",

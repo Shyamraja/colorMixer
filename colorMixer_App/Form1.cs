@@ -17,6 +17,14 @@ namespace colorMixer_App
 
         }
 
-       
+        private void pictureBox2_MouseMove(object sender, MouseEventArgs e)
+        {
+            Bitmap pixelData = (Bitmap)pictureBox2.Image;
+            Color clr = pixelData.GetPixel(e.X, e.Y);
+            tBxRed1.Text = clr.R.ToString();
+            tBxGreen1.Text = clr.G.ToString();
+            tBxBlue1.Text = clr.B.ToString();
+            pnlSelectedScreen2.BackColor = clr;
+        }
     }
 }
