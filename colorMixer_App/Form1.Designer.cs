@@ -51,7 +51,7 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.panel3 = new System.Windows.Forms.Panel();
+            this.panelMixedColor = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -275,7 +275,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.panel3);
+            this.groupBox3.Controls.Add(this.panelMixedColor);
             this.groupBox3.Controls.Add(this.button1);
             this.groupBox3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.groupBox3.Location = new System.Drawing.Point(335, 465);
@@ -285,21 +285,22 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Mixed Result";
             // 
-            // panel3
+            // panelMixedColor
             // 
-            this.panel3.Location = new System.Drawing.Point(133, 25);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(124, 95);
-            this.panel3.TabIndex = 11;
+            this.panelMixedColor.Location = new System.Drawing.Point(133, 25);
+            this.panelMixedColor.Name = "panelMixedColor";
+            this.panelMixedColor.Size = new System.Drawing.Size(124, 95);
+            this.panelMixedColor.TabIndex = 11;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(19, 75);
+            this.button1.Location = new System.Drawing.Point(6, 75);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(95, 45);
+            this.button1.Size = new System.Drawing.Size(108, 45);
             this.button1.TabIndex = 0;
             this.button1.Text = "Mix Color";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.mixSelectedColors);
             // 
             // Form1
             // 
@@ -357,5 +358,7 @@
         private Panel panel3;
         private Button button1;
         private Panel pnlSelectedScreen2;
+        private Panel panelSelec;
+        private Panel panelMixedColor;
     }
 }
