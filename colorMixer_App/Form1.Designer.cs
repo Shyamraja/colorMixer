@@ -131,11 +131,11 @@
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Font = new System.Drawing.Font("Arial Narrow", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox1.Location = new System.Drawing.Point(31, 403);
+            this.groupBox1.Location = new System.Drawing.Point(31, 409);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox1.Size = new System.Drawing.Size(390, 293);
+            this.groupBox1.Size = new System.Drawing.Size(390, 244);
             this.groupBox1.TabIndex = 5;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Selected first Color";
@@ -145,7 +145,7 @@
             this.pnlSelectedScreen1.Location = new System.Drawing.Point(251, 53);
             this.pnlSelectedScreen1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlSelectedScreen1.Name = "pnlSelectedScreen1";
-            this.pnlSelectedScreen1.Size = new System.Drawing.Size(131, 194);
+            this.pnlSelectedScreen1.Size = new System.Drawing.Size(131, 181);
             this.pnlSelectedScreen1.TabIndex = 9;
             // 
             // tBxBlue
@@ -222,7 +222,7 @@
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox2.Size = new System.Drawing.Size(390, 293);
+            this.groupBox2.Size = new System.Drawing.Size(390, 250);
             this.groupBox2.TabIndex = 6;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Selected second Color";
@@ -232,7 +232,7 @@
             this.pnlSelectedScreen2.Location = new System.Drawing.Point(244, 50);
             this.pnlSelectedScreen2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.pnlSelectedScreen2.Name = "pnlSelectedScreen2";
-            this.pnlSelectedScreen2.Size = new System.Drawing.Size(138, 194);
+            this.pnlSelectedScreen2.Size = new System.Drawing.Size(138, 162);
             this.pnlSelectedScreen2.TabIndex = 10;
             // 
             // tBxBlue1
@@ -300,21 +300,21 @@
             this.groupBox3.Controls.Add(this.panelMixedColor);
             this.groupBox3.Controls.Add(this.button1);
             this.groupBox3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox3.Location = new System.Drawing.Point(402, 717);
+            this.groupBox3.Location = new System.Drawing.Point(335, 679);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox3.Size = new System.Drawing.Size(342, 260);
+            this.groupBox3.Size = new System.Drawing.Size(344, 214);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Mixed Result";
             // 
             // panelMixedColor
             // 
-            this.panelMixedColor.Location = new System.Drawing.Point(173, 46);
+            this.panelMixedColor.Location = new System.Drawing.Point(175, 33);
             this.panelMixedColor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelMixedColor.Name = "panelMixedColor";
-            this.panelMixedColor.Size = new System.Drawing.Size(161, 174);
+            this.panelMixedColor.Size = new System.Drawing.Size(161, 159);
             this.panelMixedColor.TabIndex = 11;
             // 
             // button1
@@ -322,7 +322,7 @@
             this.button1.Location = new System.Drawing.Point(8, 137);
             this.button1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 82);
+            this.button1.Size = new System.Drawing.Size(140, 55);
             this.button1.TabIndex = 0;
             this.button1.Text = "Mix Color";
             this.button1.UseVisualStyleBackColor = true;
