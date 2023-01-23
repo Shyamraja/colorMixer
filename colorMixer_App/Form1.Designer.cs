@@ -53,11 +53,15 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.panelMixedColor = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.panelRandomlySelectedColors = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -300,11 +304,11 @@
             this.groupBox3.Controls.Add(this.panelMixedColor);
             this.groupBox3.Controls.Add(this.button1);
             this.groupBox3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox3.Location = new System.Drawing.Point(335, 679);
+            this.groupBox3.Location = new System.Drawing.Point(23, 679);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox3.Size = new System.Drawing.Size(344, 214);
+            this.groupBox3.Size = new System.Drawing.Size(398, 214);
             this.groupBox3.TabIndex = 7;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Mixed Result";
@@ -328,11 +332,45 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.mixSelectedColors);
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.panelRandomlySelectedColors);
+            this.groupBox4.Controls.Add(this.button2);
+            this.groupBox4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.groupBox4.Location = new System.Drawing.Point(608, 679);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.groupBox4.Size = new System.Drawing.Size(398, 214);
+            this.groupBox4.TabIndex = 8;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Random Mixed Result";
+            // 
+            // panelRandomlySelectedColors
+            // 
+            this.panelRandomlySelectedColors.Location = new System.Drawing.Point(175, 33);
+            this.panelRandomlySelectedColors.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panelRandomlySelectedColors.Name = "panelRandomlySelectedColors";
+            this.panelRandomlySelectedColors.Size = new System.Drawing.Size(161, 159);
+            this.panelRandomlySelectedColors.TabIndex = 11;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(8, 137);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(140, 55);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "Mix Colors";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.mixColours);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 33F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1202, 1055);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -352,6 +390,7 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -379,12 +418,15 @@
         private Label label7;
         private Label label8;
         private Label label9;
-        private Panel panel2;
+        //private Panel panel2;
         private GroupBox groupBox3;
-        private Panel panel3;
+        //private Panel panel3;
         private Button button1;
         private Panel pnlSelectedScreen2;
-        private Panel panelSelec;
+        //private Panel panelSelec;
         private Panel panelMixedColor;
+        private GroupBox groupBox4;
+        private Panel panelRandomlySelectedColors;
+        private Button button2;
     }
 }
