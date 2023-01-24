@@ -51,9 +51,12 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lblMixedRgbValues = new System.Windows.Forms.Label();
             this.panelMixedColor = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.z = new System.Windows.Forms.GroupBox();
+            this.ranMixRgbValues = new System.Windows.Forms.Label();
+            this.RandomRgbValues = new System.Windows.Forms.Label();
             this.panelRandomlySelectedColors = new System.Windows.Forms.Panel();
             this.button2 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -61,7 +64,7 @@
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
+            this.z.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -301,6 +304,7 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.Controls.Add(this.lblMixedRgbValues);
             this.groupBox3.Controls.Add(this.panelMixedColor);
             this.groupBox3.Controls.Add(this.button1);
             this.groupBox3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
@@ -313,9 +317,22 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Mixed Result";
             // 
+            // lblMixedRgbValues
+            // 
+            this.lblMixedRgbValues.AutoSize = true;
+            this.lblMixedRgbValues.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblMixedRgbValues.Font = new System.Drawing.Font("Sitka Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.lblMixedRgbValues.Location = new System.Drawing.Point(8, 64);
+            this.lblMixedRgbValues.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lblMixedRgbValues.Name = "lblMixedRgbValues";
+            this.lblMixedRgbValues.Size = new System.Drawing.Size(146, 31);
+            this.lblMixedRgbValues.TabIndex = 12;
+            this.lblMixedRgbValues.Text = "MixedRgbValues";
+            this.lblMixedRgbValues.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // panelMixedColor
             // 
-            this.panelMixedColor.Location = new System.Drawing.Point(175, 33);
+            this.panelMixedColor.Location = new System.Drawing.Point(197, 33);
             this.panelMixedColor.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelMixedColor.Name = "panelMixedColor";
             this.panelMixedColor.Size = new System.Drawing.Size(161, 159);
@@ -332,23 +349,49 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.mixSelectedColors);
             // 
-            // groupBox4
+            // z
             // 
-            this.groupBox4.Controls.Add(this.panelRandomlySelectedColors);
-            this.groupBox4.Controls.Add(this.button2);
-            this.groupBox4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.groupBox4.Location = new System.Drawing.Point(608, 679);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox4.Size = new System.Drawing.Size(398, 214);
-            this.groupBox4.TabIndex = 8;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Random Mixed Result";
+            this.z.Controls.Add(this.ranMixRgbValues);
+            this.z.Controls.Add(this.RandomRgbValues);
+            this.z.Controls.Add(this.panelRandomlySelectedColors);
+            this.z.Controls.Add(this.button2);
+            this.z.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.z.Location = new System.Drawing.Point(608, 679);
+            this.z.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.z.Name = "z";
+            this.z.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.z.Size = new System.Drawing.Size(398, 214);
+            this.z.TabIndex = 8;
+            this.z.TabStop = false;
+            this.z.Text = "Random Mixed Result";
+            // 
+            // ranMixRgbValues
+            // 
+            this.ranMixRgbValues.AutoSize = true;
+            this.ranMixRgbValues.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ranMixRgbValues.Font = new System.Drawing.Font("Sitka Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.ranMixRgbValues.Location = new System.Drawing.Point(14, 63);
+            this.ranMixRgbValues.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.ranMixRgbValues.Name = "ranMixRgbValues";
+            this.ranMixRgbValues.Size = new System.Drawing.Size(155, 31);
+            this.ranMixRgbValues.TabIndex = 14;
+            this.ranMixRgbValues.Text = "ranMixRgbValues\r\n";
+            this.ranMixRgbValues.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // RandomRgbValues
+            // 
+            this.RandomRgbValues.AutoSize = true;
+            this.RandomRgbValues.Font = new System.Drawing.Font("Sitka Display", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RandomRgbValues.Location = new System.Drawing.Point(13, 64);
+            this.RandomRgbValues.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.RandomRgbValues.Name = "RandomRgbValues";
+            this.RandomRgbValues.Size = new System.Drawing.Size(0, 29);
+            this.RandomRgbValues.TabIndex = 13;
+            this.RandomRgbValues.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // panelRandomlySelectedColors
             // 
-            this.panelRandomlySelectedColors.Location = new System.Drawing.Point(175, 33);
+            this.panelRandomlySelectedColors.Location = new System.Drawing.Point(197, 33);
             this.panelRandomlySelectedColors.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.panelRandomlySelectedColors.Name = "panelRandomlySelectedColors";
             this.panelRandomlySelectedColors.Size = new System.Drawing.Size(161, 159);
@@ -370,7 +413,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 33F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1202, 1055);
-            this.Controls.Add(this.groupBox4);
+            this.Controls.Add(this.z);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -390,7 +433,9 @@
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
+            this.z.ResumeLayout(false);
+            this.z.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -425,8 +470,11 @@
         private Panel pnlSelectedScreen2;
         //private Panel panelSelec;
         private Panel panelMixedColor;
-        private GroupBox groupBox4;
+        private GroupBox z;
         private Panel panelRandomlySelectedColors;
         private Button button2;
+        private Label lblMixedRgbValues;
+        private Label RandomRgbValues;
+        private Label ranMixRgbValues;
     }
 }
