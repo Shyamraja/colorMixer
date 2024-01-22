@@ -3,7 +3,7 @@ This application is a desktop application where users can:
  choose different colors, 
  view the choosen color with the RGB values, 
  Mix the chosen colours and view the mixed colour's RGB values,
- The project is a solution for mixing  different colors using C#.
+ The project is a solution for selection and mixing  different colors and display the result using C#.
 
 The ScreenShot of how application looks is as below: 
 ![Screenshot (2883)](https://user-images.githubusercontent.com/32189508/214237586-69615d0b-8e88-4ea8-b797-5ab2e0eacc3a.png)
